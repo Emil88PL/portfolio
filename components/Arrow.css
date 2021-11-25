@@ -1,0 +1,55 @@
+.arrow-down {
+    position: absolute;
+    left: 46%;
+    bottom: 10%;
+    z-index: 100;
+    padding: 30px;
+}
+
+#arrow-down {
+    animation: mymove 1.6s infinite;
+}
+
+@keyframes mymove {
+    0% {bottom: 10%;}
+    50% {bottom: 7%;}
+    0% {bottom: 10%;}
+  }
+
+   /* ########### PC ############ */
+
+  @media(max-width:992px){
+    .arrow-down {
+        position: absolute;
+        left: 46%;
+        bottom: 10%;
+        z-index: 100;
+        padding: 30px;
+    }
+
+    @keyframes mymove {
+        0% {bottom: 10%;}
+        50% {bottom: 13%;}
+        0% {bottom: 10%;}
+      }
+    
+  }
+
+  /* ########### tel ############ */
+
+  @media(max-width:410px){
+    .arrow-down {
+        position: absolute;
+        left: 41%;
+        bottom: 7%;
+        z-index: 100;
+        padding: 30px;
+    }
+
+    @keyframes mymove {
+        0% {bottom: 7%;}
+        50% {bottom: 11%;}
+        0% {bottom: 7%;}
+      }
+    
+  } 

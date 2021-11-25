@@ -1,0 +1,12 @@
+.mainHeader{
+    height: 1224px;
+    /* padding: 30px; */
+    padding-top: 10%;
+
+}
+
+@media(max-width:992px){
+    img{
+    border-radius: 12px;
+    }
+}
